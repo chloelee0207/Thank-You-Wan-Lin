@@ -1,6 +1,6 @@
 function setup() {
   // put setup code here
-  createCanvas(500,500);
+  createCanvas(windowWidth,windowHeight);
   background(0, 0, 0);
   //ellipse (width/2,height/2,400,400);
 }
