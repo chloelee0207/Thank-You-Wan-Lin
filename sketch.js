@@ -10,15 +10,19 @@ let numRows = 12;
 let sushiSpeed = 3;
 
 function preload() {
+  myFont = loadFont('Kalam-Bold.ttf');
   sushi1 = loadImage('sushi1.png');
-  sushi2 = loadImage('sushi2.png')
-  sushiPictures = [sushi1,sushi2];
+  sushi2 = loadImage('sushi2.png');
+  sushi3 = loadImage('sushi3.png');
+  sushi4 = loadImage('sushi4.png');
+  sushiPictures = [sushi1,sushi2,sushi3,sushi4];
 }
 
 function setup() {
   // put setup code here
   createCanvas(windowWidth, windowHeight);
   background(50);
+  textFont(myFont);
 
   rowHeight = windowHeight / 12;
   sushiWidth = rowHeight*0.9;
